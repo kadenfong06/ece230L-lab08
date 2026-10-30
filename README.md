@@ -31,4 +31,4 @@ A demultiplexer is pretty much the opposite of a multiplexer. Instead of choosin
 
 ### What other uses might these circuits have? (Think Shannon’s)
 
-We could see these being used in things like phone networks or computers where you need to send data to different places. This also connects to Shannon's work with using switches and logic to control how information moves around. Instead of needing a separate connection for everything, you can use a MUX and DEMUX to control where information comes from and where it goes.
+MUX and DEMUX circuits can be used in things like computers and phone networks to control where data comes from and where it goes. This also connects to Shannon's expansion, which shows how a Boolean function can be broken down based on whether a variable is 0 or 1. A MUX can use its select bit to choose between those two cases, allowing it to perform logic functions instead of just moving data around. A DEMUX can also be used to send signals to specific parts of a circuit, like selecting which memory location receives data.
